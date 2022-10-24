@@ -1,0 +1,40 @@
+public class Student {
+
+public void rollNumber()
+{
+System.out.println("101");
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("Baljeet");
+//Syntax :ClassName ObjectName = new ClassName();
+		Student Baljeet=new Student();
+	//ObjectName.methodName();
+		Baljeet.rollNumber();
+	
+		
+	}
+
+}
+public class Car {
+	
+	public void applyBrake()
+	{
+		System.out.println("applyingBrake");
+	
+	}
+	public void applyHorn()
+	{
+		System.out.println("applyingHorn");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Car Toyota = new Car();
+		Toyota.applyBrake();
+		Toyota.applyHorn();
+
+	}
+
+}
