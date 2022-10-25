@@ -1,0 +1,19 @@
+package sep22.week1.day2;
+
+public class Mobile {
+
+	
+	public String mobileModel="iphone13";
+	public int mobileWeight=300;
+	public boolean isFullCharge=true;
+	public double mobileCost=195.97;
+
+
+	public static void main(String[] args) {
+		Mobile details=new Mobile();
+		System.out.println("Mobile Model: "+details.mobileModel);
+		System.out.println("Mobile Weight: "+details.mobileWeight);
+		System.out.println("Mobile Full Charge?:" +details.isFullCharge);
+		System.out.println("Mobile Cost: "+details.mobileCost);
+}
+}
